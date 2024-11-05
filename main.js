@@ -9,7 +9,7 @@ const productos = [
     { id: 8, nombre: "Cold Brew Exótico", precio: 1280, descripcion: "Café frío, infusionado lentamente para un sabor refrescante y único.", imagen: "./img/cold.png" }
 ];
 
-let carritoproductos = JSON.parse(localStorage.getItem("carritoproductos")) 
+let carritoproductos = JSON.parse(localStorage.getItem("carritoproductos")) || []
 const contenedorproductos = document.getElementById("contenedor-productos")
 
 
