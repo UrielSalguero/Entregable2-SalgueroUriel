@@ -1,4 +1,4 @@
-let carrito = JSON.parse(localStorage.getItem("carritoproductos")) 
+let carrito = JSON.parse(localStorage.getItem("carritoproductos")) || []
 const carritocontenedor = document.getElementById("carrito-contenedor")
 
 function renderCarrito(cartItems) {
